@@ -1,0 +1,22 @@
+{
+  "name": "Marvkare",
+  "version": "1.0.0",
+  "description": "[One Page Wonder](https://startbootstrap.com/theme/one-page-wonder/) is a basic one page template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).",
+  "main": "index.js",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "googleapis": "^70.0.0",
+    "nodemailer": "^6.5.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node index.js",
+    "dev": "cross-env  NODE_ENV=development nodemon ./index.js"
+  },
+  "keywords": [],
+  "author": "Marvkare",
+  "license": "ISC"
+}
