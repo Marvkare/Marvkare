@@ -3,6 +3,7 @@ const app = express()
 const path = require('path')
 const exphbs  = require('express-handlebars');
 
+app.set('port', process.env.PORT || 3000)
 app.use(express.static(path.join(__dirname, 'views')))
 app.set('views', path.join(__dirname, 'views'));
 app.engine('.hbs', exphbs({
@@ -17,8 +18,8 @@ app.use(require('./routes/index.routes.js'))
 
 
 
-app.listen(3000, ()=>{
-    console.log('Server on port 3000 :3')
+app.listen(app.get('port'), ()=>{
+    console.log(`Server on port ${app.get('port')} :3`)
 })
 
 console.log(path.join(__dirname))
