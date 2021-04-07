@@ -20,6 +20,14 @@ const oAuth2Client = new google.auth.OAuth2(
 
 oAuth2Client.setCredentials({ refresh_token: REFRESH_TOKEN });
 
+router.get('/', (req, res)=>{
+  res.render('index')
+})
+
+router.get('/comingSoon', (req, res)=>{
+  res.render('comingSoon')
+})
+
 router.post('/send-email', async (req, res) => {
   const { name, email, phone, affair, message } = req.body
 
