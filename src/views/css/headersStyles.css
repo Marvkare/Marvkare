@@ -1,0 +1,16 @@
+.boxTitulo{
+   display:  flex;
+   justify-content: space-evenly;
+
+}
+
+.items>img{
+    width: 80%;
+    border-radius: 10px;
+}
+
+.items {
+    display:flex;
+    flex-flow:column;
+    justify-content: space-evenly;
+}
