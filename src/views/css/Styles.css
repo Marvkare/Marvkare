@@ -14,24 +14,50 @@ body{
 ._box{
 	width: 100%;
 }
-.boxCard{
+.boxCardBody{
+	padding: 10px;
 	border-radius: 10px;
 	background: #424769;
-	width: 30%;
-	height: 300px;
+	width: 320px;
+	height: 320px;
 	display: flex;
 	align-items: center;
 	flex-flow: column wrap;
+	justify-content: space-evenly;
 }
 
-.boxCard>a{
+.cardDescription{
+	margin-top: 10px;
+	border-radius: 5px;
+	width: 90%;
+	height: 30%;
+	background-color: #676f9d;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.cardDescription>p{
+	width: 90%;
+}
+
+.boxCard{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.boxCardBody>*{
+	margin: 2px;
+}
+
+.boxCardBody>a{
 	text-decoration: none;
 	color: white;
 }
-.boxCard> img{
+.boxCardBody> img{
 	width: 90%;
 	border-radius: 10px;
 }
 .box {
-	padding-top: 5%;
+	padding-top: 1%;
 }
