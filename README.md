@@ -6,18 +6,18 @@
 
 ## Sobre Mí
 
-Actualmente, me encuentro buscando una **residencia profesional desafiante** donde pueda aplicar y expandir mis habilidades en el desarrollo web. Cuento con experiencia práctica en el **stack MEARN (MongoDB/MySQL, Express.js, React.js, Node.js)** y siempre estoy aprendiendo nuevas tecnologías.
+Soy un apasionado de la programación web y IA, he desarrollo proyectos front-end y back-end con nodejs y Python.
 
+He trabajado en proyectos freelance en negocios de mi municipio Atitalaquia, donde he tenido la oportunidad de dar soluciónes adaptadas a negocios con software.
+
+Me considero un aprendiz constante, siempre buscando nuevas formas de mejorar y actualizar mis habilidades. Creo firmemente en la frase: "somos hombres parados en hombros de gigantes", lo que me motiva a aprender de los mejores en la industria.
+
+En mi tiempo libre, disfruto de la acuaponía, aprender de agricultura y la filosofía, dos pasiones que me ayudan a mantener un equilibrio entre la lógica del desarrollo y la creatividad.
+
+Estoy abierto a conectar con otros profesionales y explorar nuevas oportunidades en el mundo de la programación.
 ---
 
-## Habilidades Técnicas
-
-* **Lenguajes y Frameworks:** Node.js, Express.js, React.js, HTML5, CSS3, JavaScript
-* **Bases de Datos:** MySQL
-* **Conceptos de Desarrollo:** Arquitectura de Software, Normalización de Bases de Datos, Creación de APIs RESTful
-* **Control de Versiones:** Git / GitHub (puedes añadir si lo usas con frecuencia)
-
----
+## Curriculum
 
 ## Proyectos Destacados
 
@@ -31,22 +31,6 @@ Lideré el desarrollo y la implementación de un **sistema de gestión contable 
 * **Definí y estructuré la arquitectura del software**, utilizando **Node.js con Express** para el backend y **EJS** como motor de plantillas para la interfaz gráfica, integrando **MySQL** para la base de datos.
 * **Supervisé el diseño y la normalización de la base de datos MySQL**, garantizando la integridad y consistencia de los datos para una operación eficiente.
 * *(Aquí podrías enlazar a un repositorio específico de LavaGyn si lo tienes público, o a una demo del proyecto si está disponible.)*
-
----
-
-## Educación y Formación
-
-* **Ingeniería en Sistemas Computacionales (Especialidad: Seguridad de la Información)**
-    * Instituto Tecnológico de Atitalaquia, Hidalgo, México
-    * Octubre 2021 - Diciembre 2025
-
-### Formación Complementaria
-
-* **Perfil Platzi:** [https://platzi.com/p/Marvkare/](https://platzi.com/p/Marvkare/)
-* Curso básico de programación con Node.js (Platzi)
-* Fundamentos de Ingeniería de Software (IBM Cloud - Platzi)
-* Fundación Telefónica - Conecta Empleo
-* MX Diseño Web con HTML5 + CSS - FT Ed 4
 
 ---
 
