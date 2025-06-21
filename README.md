@@ -1,8 +1,4 @@
-# Miguel Ángel Reyes Verdin - Portafolio de Proyectos
-
-¡Hola! Soy **Miguel Ángel Reyes Verdin**, un **Desarrollador Web en formación** de la carrera de Ingeniería en Sistemas Computacionales, con especialidad en Seguridad de la Información. Mi pasión es crear soluciones web robustas y escalables, con un firme compromiso con la calidad y la innovación.
-
----
+# Miguel Ángel Reyes Verdin
 
 ## Sobre Mí
 
@@ -15,9 +11,6 @@ Me considero un aprendiz constante, siempre buscando nuevas formas de mejorar y 
 En mi tiempo libre, disfruto de la acuaponía, aprender de agricultura y la filosofía, dos pasiones que me ayudan a mantener un equilibrio entre la lógica del desarrollo y la creatividad.
 
 Estoy abierto a conectar con otros profesionales y explorar nuevas oportunidades en el mundo de la programación.
----
-
-## Curriculum
 
 ## Proyectos Destacados
 
@@ -33,7 +26,6 @@ Lideré el desarrollo y la implementación de un **sistema de gestión contable 
 * *(Aquí podrías enlazar a un repositorio específico de LavaGyn si lo tienes público, o a una demo del proyecto si está disponible.)*
 
 ---
-
 ## Contacto
 
 ¡No dudes en conectar conmigo!
@@ -41,14 +33,5 @@ Lideré el desarrollo y la implementación de un **sistema de gestión contable 
 * **LinkedIn:** [https://www.linkedin.com/in/miguel-angel-reyes-verdin](https://www.linkedin.com/in/miguel-angel-reyes-verdin)
 * **Correo:** migverdin@gmail.com
 * **Teléfono:** +54 7731756740
+* **Curriculum:** [https://docs.google.com/document/d/15JaF1YOpLmJigOwBpv5GmKk-GOvH1oEx/edit?usp=sharing&ouid=109295618643034130482&rtpof=true&sd=true]
 
----
-
-## Habilidades Blandas
-
-* Empatía
-* Pensamiento Analítico
-
----
-
-Gracias por visitar mi perfil. ¡Estoy emocionado por las oportunidades de colaboración!
