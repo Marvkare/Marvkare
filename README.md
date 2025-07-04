@@ -23,7 +23,7 @@ Lideré el desarrollo y la implementación de un **sistema de gestión contable 
 
 * **Definí y estructuré la arquitectura del software**, utilizando **Node.js con Express** para el backend y **EJS** como motor de plantillas para la interfaz gráfica, integrando **MySQL** para la base de datos.
 * **Supervisé el diseño y la normalización de la base de datos MySQL**, garantizando la integridad y consistencia de los datos para una operación eficiente.
-* *(Aquí podrías enlazar a un repositorio específico de LavaGyn si lo tienes público, o a una demo del proyecto si está disponible.)*
+
 
 ---
 ## Contacto
