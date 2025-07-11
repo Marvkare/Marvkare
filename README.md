@@ -4,14 +4,6 @@
 
 Soy un apasionado de la programación web y IA, he desarrollo proyectos front-end y back-end con nodejs y Python.
 
-He trabajado en proyectos freelance en negocios de mi municipio Atitalaquia, donde he tenido la oportunidad de dar soluciónes adaptadas a negocios con software.
-
-Me considero un aprendiz constante, siempre buscando nuevas formas de mejorar y actualizar mis habilidades. Creo firmemente en la frase: "somos hombres parados en hombros de gigantes", lo que me motiva a aprender de los mejores en la industria.
-
-En mi tiempo libre, disfruto de la acuaponía, aprender de agricultura y la filosofía, dos pasiones que me ayudan a mantener un equilibrio entre la lógica del desarrollo y la creatividad.
-
-Estoy abierto a conectar con otros profesionales y explorar nuevas oportunidades en el mundo de la programación.
-
 ## Proyectos Destacados
 
 ### 🚀 LavaGyn - Sistema de Gestión Contable (Proyecto de Liderazgo)
