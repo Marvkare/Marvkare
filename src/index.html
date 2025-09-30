@@ -1,53 +1,180 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-	<link rel="Stylesheet" href = "./views/css/styles.css"/>
-	<link rel="Stylesheet" href="./views/css/headersStyles.css"/>
-	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desarrollador Web Miguel Ángel Reyes Verdin: portafolio de proyectos, habilidades en Node.js, MySQL, React.js y experiencia en desarrollo de sistemas contables.">
+    <meta name="keywords" content="desarrollador web, Node.js, MySQL, React.js, portafolio, proyectos, sistemas contables, seguridad de la información, Miguel Ángel Reyes Verdin, Hidalgo, México">
+    <meta name="author" content="Miguel Ángel Reyes Verdin">
+    <title>Miguel Ángel Reyes Verdin | Desarrollador Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-	<div class="boxTitulo" id="">
-		<div class="items">
-			<h1 id="holaMundo">Hola mundo!! UwU/</h2>
-		    <img src="./views/img/gato.gif" alt="">
-			<h2>Bienvenido a mi sitio web</h2>
-		</div>
-		</div>
 
-	</div>
-		
-	</div>
-		<div class="_box">
-			<div class="boxCard">
-				<div class="boxCardBody">
-					<a href="">Curriculum</a>
-					<img src="./views/img/curriculm.webp" alt="">
-					<div class="cardDescription">
-					<p>El aburrido y comun curriculm vitae de toda la vida </p>
-					</div>
-				</div>
-				<div class="boxCardBody">
-					<a href="">Curriculum</a>
-					<img src="./views/img/curriculm.webp" alt="">
-					<div class="cardDescription">
-					<p>El aburrido y comun curriculm vitae de toda la vida </p>
-					</div>
-				</div>
-				<div class="boxCardBody">
-					<a href="">Curriculum</a>
-					<img src="./views/img/curriculm.webp" alt="">
-					<div class="cardDescription">
-					<p>El aburrido y comun curriculm vitae de toda la vida </p>
-					</div>
-				</div>
-			</div>
-			
-			
-		</div>	
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Miguel Ángel Reyes Verdin</div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#formacion">Cursos y Certificaciones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <a href="ruta/a/tu/cv.pdf" class="cta-button header-cta" download="CV_Miguel_Angel_Reyes_Verdin.pdf">Descargar CV</a>
+            <div class="hamburger-menu">&#9776;</div> </nav>
+    </header>
 
-<script src="./controlles/main.js"></script>
+    <main>
+        <section id="inicio" class="hero-section">
+            <div class="hero-content">
+                <h1>Creando Soluciones Web Innovadoras</h1>
+                <p>Desarrollador web en formación con pasión por la calidad, la innovación y la seguridad de la información.</p>
+                <a href="#proyectos" class="cta-button hero-cta">Ver Proyectos Destacados</a>
+                </div>
+        </section>
+
+        <section id="sobre-mi" class="about-me-section">
+            <h2>Sobre Mí</h2>
+            <div class="about-content">
+                <p>Soy Miguel Ángel Reyes Verdin, un desarrollador web en formación de la carrera de Ingeniería en Sistemas Computacionales con especialidad en Seguridad de la Información, buscando una residencia profesional desafiante. Poseo habilidades sólidas en programación con Node.js, MySQL y React.js, y un firme compromiso con la calidad y la innovación en cada proyecto. Mi enfoque se centra en construir soluciones robustas y escalables, garantizando la integridad y consistencia de los datos.</p>
+                <div class="skills">
+                    <h3>Habilidades Clave</h3>
+                    <div class="skills-box">
+                    <div class="hard-skills">
+                        <h4>Habilidades Duras:</h4>
+                        <ul>
+                            <li><i class="fas fa-code"></i> Node.js </li>
+                            <li><i class="fas fa-database"></i> MySQL </li>
+                            <li><i class="fab fa-react"></i> React.js </li>
+                            <li><i class="fab fa-html5"></i> HTML5</li>
+                            <li><i class="fab fa-css3-alt"></i> CSS3</li>
+                            <li><i class="fab fa-js"></i> JavaScript</li>
+                            </ul>
+                    </div>
+                    <div class="soft-skills">
+                        <h4>Habilidades Blandas:</h4>
+                        <ul>
+                            <li><i class="fas fa-handshake"></i> Empatía </li>
+                            <li><i class="fas fa-lightbulb"></i> Pensamiento Analítico </li>
+                            </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="projects-section">
+            <h2>Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <img src="./img/Screenshot_2.jpg" alt="Imagen del proyecto LavaGyn">
+                    <h3>Sistema de Gestión Contable para Lavandería: LavaGyn</h3>
+                    <p>Lideré el desarrollo y la implementación de un sistema de gestión contable integral para una lavandería local, enfocado en automatizar operaciones. Utilizando Node.js con Express, EJS y MySQL. </p>
+                    <div class="project-tech-stack">
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>EJS</span>
+                        <span>MySQL</span>
+                    </div>
+                    <a href="proyectos.html#lavagyn" class="cta-button project-detail-button">Ver Detalles</a>
+                </article>
+
+                <article class="project-card">
+                    <img src="img/Screenshot_1.jpg" alt="Imagen del Proyecto 2">
+                    <h3>Sistema de vacaciones</h3>
+                    <p>
+                        Un pequeña pagina web desplegada en un servidor ubuntu local, permite a RH tener un control y registro  de quien cuanto cuntos dias y quien aprovo las vacaciones o dias. Fue desarrollada con el lenguaje PHP y MySQL.
+                    </p>
+                    <div class="project-tech-stack">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                    </div>
+                    <a href="proyectos.html#proyecto2" class="cta-button project-detail-button">Ver Detalles</a>
+                </article>
+
+                <article class="project-card">
+                    <img src="placeholder-project3.jpg" alt="Imagen del Proyecto 3">
+                    <h3>Proyecto Personal Ejemplo 3</h3>
+                    <p>Breve descripción del tercer proyecto, enfocándose en la solución que ofrece o el desafío que resolvió.</p>
+                    <div class="project-tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="proyectos.html#proyecto3" class="cta-button project-detail-button">Ver Detalles</a>
+                </article>
+            </div>
+            <div class="button-container">
+                <!--<a href="proyectos.html" class="cta-button large-cta-button">Ver Todos los Proyectos</a>
+                -->
+                
+            </div>
+        </section>
+
+        <section id="formacion" class="education-certification-section">
+            <h2>Cursos y Certificaciones</h2>
+            <div class="certifications-grid">
+                <article class="certification-card">
+                    <h3>Curso Básico de Programación con Node.js</h3>
+                    <p class="institution">Platzi </p>
+                    <p class="date">Fecha de finalización (Ej. 2023)</p>
+                    <p>Adquirí los fundamentos esenciales para el desarrollo backend con Node.js.</p>
+                    <a href="https://platzi.com/p/Marvkare/" target="_blank" rel="noopener noreferrer" class="cta-button small-button">Ver Perfil Platzi</a>
+                </article>
+
+                <article class="certification-card">
+                    <h3>Fundamentos de Ingeniería de Software IBM Cloud</h3>
+                    <p class="institution">Platzi</p>
+                    <p class="date">Fecha de finalización (Ej. 2023)</p>
+                    <p>Aprendizaje sobre los principios clave de la ingeniería de software y conceptos de IBM Cloud.</p>
+                    <a href="https://platzi.com/p/Marvkare/" target="_blank" rel="noopener noreferrer" class="cta-button small-button">Ver Perfil Platzi</a>
+                </article>
+
+                <article class="certification-card">
+                    <h3>MX Diseño Web con HTML5 + CSS - FT Ed 4</h3>
+                    <p class="institution">Fundación Telefónica - Conecta Empleo</p>
+                    <p class="date">Fecha de finalización (Ej. 2022)</p>
+                    <p>Dominio de las bases del diseño y desarrollo web con HTML5 y CSS.</p>
+                    </article>
+            </div>
+            <div class="button-container">
+                <a href="cursos.html" class="cta-button large-cta-button">Ver Cursos y Certificaciones Completos</a>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact-section">
+            <h2>Contacto</h2>
+            <p>¡Me encantaría saber de ti! No dudes en contactarme para proyectos, colaboraciones o simplemente para saludar.</p>
+            <form action="YOUR_FORMSPREE_OR_NETLIFY_FORMS_URL" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Enviar Mensaje</button>
+            </form>
+            <div class="social-links">
+                <p>O encuéntrame en:</p>
+                <a href="https://www.linkedin.com/in/miguel-angel-reyes-verdin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Marvkare" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:migverdin@gmail.com" aria-label="Correo Electrónico"><i class="fas fa-envelope"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Miguel Ángel Reyes Verdin. Todos los derechos reservados.</p>
+        </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
