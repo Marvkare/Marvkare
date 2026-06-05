@@ -131,6 +131,40 @@ ul {
     color: var(--color-text-light);
 }
 
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--color-dark);
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.dropdown-content li {
+    margin: 0;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 /* Hero Section */
 .hero-section {
      background-color: rgba(3, 3, 3, 0.2);

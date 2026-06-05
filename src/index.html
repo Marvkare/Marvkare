@@ -15,10 +15,17 @@
     <header class="header">
         <nav class="navbar">
             <div class="logo">Miguel Ángel Reyes Verdin</div>
+            
             <ul class="nav-links">
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#sobre-mi">Sobre Mí</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
+                <li class="dropdown">
+                    <a href="#proyectos">Proyectos &#9662;</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#proyectos">Proyectos Destacados</a></li>
+                        <li><a href="otros-proyectos.html">Otros Proyectos</a></li>
+                    </ul>
+                </li>
                 <li><a href="#formacion">Cursos y Certificaciones</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
@@ -30,7 +37,7 @@
         <section id="inicio" class="hero-section">
             <div class="hero-content">
                 <h1>Creando Soluciones Web Innovadoras</h1>
-                <p>Desarrollador web en formación con pasión por la calidad, la innovación y la seguridad de la información.</p>
+                <p>Desarrollador fullstack con pasión por la calidad, la innovación y la seguridad de la información.</p>
                 <a href="#proyectos" class="cta-button hero-cta">Ver Proyectos Destacados</a>
                 </div>
         </section>
@@ -45,12 +52,15 @@
                     <div class="hard-skills">
                         <h4>Habilidades Duras:</h4>
                         <ul>
-                            <li><i class="fas fa-code"></i> Node.js </li>
-                            <li><i class="fas fa-database"></i> MySQL </li>
-                            <li><i class="fab fa-react"></i> React.js </li>
-                            <li><i class="fab fa-html5"></i> HTML5</li>
-                            <li><i class="fab fa-css3-alt"></i> CSS3</li>
-                            <li><i class="fab fa-js"></i> JavaScript</li>
+                            Gemini ha dicho
+                        <li><i class="fas fa-code"></i> Node.js </li>
+                        <li><i class="fas fa-database"></i> MySQL </li>
+                        <li><i class="fab fa-react"></i> React.js </li>
+                        <li><i class="fab fa-html5"></i> HTML5</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS3</li>
+                        <li><i class="fab fa-js"></i> JavaScript</li>
+                        <li><i class="fab fa-python"></i> Python</li>
+                        <li><i class="fab fa-git-alt"></i> Git</li>
                             </ul>
                     </div>
                     <div class="soft-skills">
@@ -95,15 +105,16 @@
                 </article>
 
                 <article class="project-card">
-                    <img src="placeholder-project3.jpg" alt="Imagen del Proyecto 3">
-                    <h3>Proyecto Personal Ejemplo 3</h3>
-                    <p>Breve descripción del tercer proyecto, enfocándose en la solución que ofrece o el desafío que resolvió.</p>
+                    <img src="img/Screenshot_64.jpg" alt="Imagen del proyecto Sistema de Inventario">
+                    <h3>Sistema de Inventario y Resguardo Patrimonial</h3>
+                    <p>Sistema web para el control, inventario y resguardo de bienes patrimoniales, alineado con la Ley General de Contabilidad Gubernamental para el municipio de Atitalaquia.</p>
                     <div class="project-tech-stack">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>MySQL</span>
+                        <span>SQLAlchemy</span>
                     </div>
-                    <a href="proyectos.html#proyecto3" class="cta-button project-detail-button">Ver Detalles</a>
+                    <a href="https://github.com/Marvkare/sistema-inventario" class="cta-button project-detail-button">Ver Detalles</a>
                 </article>
             </div>
             <div class="button-container">

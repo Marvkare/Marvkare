@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Inventario | Miguel Ángel Reyes Verdin</title>
+    <link rel="stylesheet" href="../css/proyectos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .project-detail-section {
+            padding: 4em 1.5rem;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: var(--color-text-light);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .project-detail-section h1 { color: var(--color-dark); font-size: 2.5em; margin-bottom: 0.5em; }
+        .project-detail-section h2 { color: var(--color-primary); font-size: 1.8em; margin-top: 1.5em; margin-bottom: 0.8em; border-bottom: 2px solid var(--color-light); padding-bottom: 0.3em; }
+        .project-detail-section h3 { color: var(--color-dark); font-size: 1.3em; margin-top: 1.5em; margin-bottom: 0.5em; }
+        .project-detail-section p, .project-detail-section li { font-size: 1.1em; margin-bottom: 1em; color: var(--color-text-dark); }
+        .project-detail-section ul { margin-left: 2em; margin-bottom: 1.5em; list-style-type: disc; }
+        .tech-table { width: 100%; border-collapse: collapse; margin-bottom: 2em; margin-top: 1em; }
+        .tech-table th, .tech-table td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        .tech-table th { background-color: var(--color-dark); color: var(--color-text-light); }
+        .tech-table tr:nth-child(even) { background-color: #f9f9f9; }
+        .code-block { background-color: #2b2b2b; color: #f8f8f2; padding: 1em; border-radius: 5px; overflow-x: auto; font-family: monospace; margin-bottom: 1.5em; white-space: pre-wrap; }
+        .back-button { margin-bottom: 2em; display: inline-flex; align-items: center; gap: 8px; }
+        .author-section { margin-top: 3em; padding-top: 1.5em; border-top: 1px solid #ddd; text-align: center; }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Miguel Ángel Reyes Verdin</div>
+            <ul class="nav-links">
+                <li><a href="index.html#inicio">Inicio</a></li>
+                <li><a href="index.html#sobre-mi">Sobre Mí</a></li>
+                <li class="dropdown">
+                    <a href="index.html#proyectos">Proyectos &#9662;</a>
+                    <ul class="dropdown-content">
+                        <li><a href="index.html#proyectos">Proyectos Destacados</a></li>
+                        <li><a href="otros-proyectos.html">Otros Proyectos</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html#formacion">Cursos y Certificaciones</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+            </ul>
+            <div class="hamburger-menu">&#9776;</div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="project-detail-section">
+            <a href="index.html#proyectos" class="cta-button back-button"><i class="fas fa-arrow-left"></i> Volver a Proyectos</a>
+            
+            <h1>Sistema de Inventario y Resguardo Patrimonial (Atitalaquia)</h1>
+            <p>Sistema de software para el control, inventario y resguardo de bienes patrimoniales, diseñado para cumplir con el marco jurídico aplicable al municipio de Atitalaquia, Hidalgo, y alineado con la Ley General de Contabilidad Gubernamental (LGCG).</p>
+
+            <h2>🏛️ Contexto y Propósito</h2>
+            <p>La gestión del patrimonio público en México exige un control riguroso y auditable. Los procesos manuales o basados en hojas de cálculo son propensos a errores, dificultan la rendición de cuentas y representan un alto riesgo ante las auditorías de la <strong>Auditoría Superior del Estado de Hidalgo (ASEH)</strong>.</p>
+            <p>Este sistema nace como una solución tecnológica para automatizar y asegurar el cumplimiento del ciclo de vida de los bienes patrimoniales, desde su adquisición hasta su disposición final. Su arquitectura y lógica de negocio están fundamentadas en:</p>
+            <ul>
+                <li><strong>Ley General de Contabilidad Gubernamental (LGCG):</strong> Asegurando la obligatoria conciliación contable entre el inventario físico y los registros financieros.</li>
+                <li><strong>Ley de Bienes para el Estado de Hidalgo:</strong> Respetando la clasificación de bienes (Dominio Público y Privado) y los procedimientos que esto conlleva.</li>
+                <li><strong>Reglamento de los Bienes Patrimoniales Municipales de Atitalaquia:</strong> Modelando los roles, responsabilidades y procedimientos específicos del municipio.</li>
+            </ul>
+            <p>El objetivo es transformar el inventario de una tarea administrativa a una plataforma estratégica de cumplimiento, transparencia y defensa ante auditorías.</p>
+
+            <h2>✨ Funcionalidades Implementadas</h2>
+            
+            <h3>📋 Módulo de Alta de Bienes</h3>
+            <p>Permite el registro de nuevos activos capturando toda la información obligatoria según el Artículo 33 del Reglamento, incluyendo:</p>
+            <ul>
+                <li>Descripción detallada (marca, modelo, serie).</li>
+                <li>Valor y fecha de adquisición.</li>
+                <li>Capacidad para adjuntar la factura digitalizada, creando un expediente digital desde el origen.</li>
+            </ul>
+
+            <h3>👤 Módulo de Resguardos y Traspasos</h3>
+            <p>Formaliza la custodia y responsabilidad sobre los bienes:</p>
+            <ul>
+                <li><strong>Asignación de Resguardos:</strong> Vincula un bien a un empleado (responsable directo) y a su jefe (responsable solidario).</li>
+                <li><strong>Generación de Resguardos en PDF:</strong> Crea el documento oficial listo para ser firmado y archivado.</li>
+                <li><strong>Traspaso de Responsabilidad:</strong> Facilita el cambio de resguardante de manera ágil y documentada, generando el acta de entrega-recepción correspondiente.</li>
+            </ul>
+
+            <h3>🏢 Módulo de Administración de Áreas</h3>
+            <p>Replica la estructura organizacional del municipio, permitiendo a los Titulares de Unidad Administrativa (Jefes de Área) visualizar y gestionar el inventario completo de sus dependencias, cumpliendo con su rol de "resguardante solidario" (Artículo 30).</p>
+
+            <h3>🖨️ Generador de Etiquetas con Códigos QR</h3>
+            <p>Para un control físico eficiente, el sistema genera etiquetas personalizables para cada bien. Estas etiquetas incluyen:</p>
+            <ul>
+                <li>Número de inventario.</li>
+                <li>Descripción del bien.</li>
+                <li>Un código QR único que, al ser escaneado con un dispositivo móvil, puede dirigir a la ficha de información detallada del activo.</li>
+            </ul>
+
+            <h3>📊 Módulo de Reportes Dinámicos</h3>
+            <p>Una herramienta fundamental para el control y la fiscalización. Permite generar informes al instante, como:</p>
+            <ul>
+                <li>Inventario general del municipio.</li>
+                <li>Inventario por área o unidad administrativa.</li>
+                <li>Inventario por responsable (resguardante).</li>
+                <li>Reporte mensual de movimientos patrimoniales (altas, bajas, traspasos) para informar a la Secretaría General Municipal, conforme al Artículo 18 del Reglamento.</li>
+            </ul>
+
+            <h2>💻 Pila Tecnológica</h2>
+            <table class="tech-table">
+                <thead>
+                    <tr>
+                        <th>Componente</th>
+                        <th>Tecnología</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Backend</td><td>Python (Flask)</td></tr>
+                    <tr><td>Base de Datos</td><td>MySQL</td></tr>
+                    <tr><td>ORM</td><td>Flask-SQLAlchemy</td></tr>
+                    <tr><td>Reportes</td><td>Generación de PDF y exportación a Excel</td></tr>
+                </tbody>
+            </table>
+
+            <h2>🚀 Instalación y Puesta en Marcha</h2>
+            
+            <h3>1. Requisitos Previos</h3>
+            <p><strong>A. Python:</strong> Descarga desde python.org. Marca "Add Python to PATH" durante la instalación.</p>
+            <p><strong>B. MySQL & MySQL Workbench:</strong> Instalación recomendada definiendo contraseña para root (puerto 3306).</p>
+            <p><strong>C. GTK3 (Solo Windows):</strong> Requerido para la generación de reportes y dependencias gráficas.</p>
+
+            <h3>2. Configuración del Entorno</h3>
+            <p>Clonar el repositorio:</p>
+            <div class="code-block">git clone https://github.com/Marvkare/sistema-inventario.git
+cd sistema-inventario</div>
+            
+            <p>Crear y activar un entorno virtual:</p>
+            <div class="code-block"># En Windows
+python -m venv venv
+.\venv\Scripts\activate
+
+# En macOS/Linux
+python3 -m venv venv
+source venv/bin/activate</div>
+
+            <p>Instalar las dependencias:</p>
+            <div class="code-block">pip install -r requirements_python312.txt</div>
+
+            <p>Configurar variables de entorno (Crea un archivo <code>.env</code> en la raíz):</p>
+            <div class="code-block">SECRET_KEY='tu_clave_secreta_aqui'
+DB_HOST='localhost'
+DB_USER='root'
+DB_PASSWORD='tu_contraseña_de_mysql'
+DB_NAME='nombre_de_tu_db'</div>
+
+            <h3>3. Base de Datos y Ejecución</h3>
+            <div class="code-block">flask db init
+flask db migrate -m "Migración inicial"
+flask db upgrade
+flask run</div>
+            <p>La aplicación estará disponible en: <a href="http://127.0.0.1:5000" target="_blank">http://127.0.0.1:5000</a></p>
+
+            <h2>🗺️ Roadmap y Futuras Funcionalidades</h2>
+            <ul>
+                <li><strong>Módulo de Bajas y Disposición Final:</strong> Implementar el flujo de trabajo normativo (dictamen técnico, avalúo, autorización) para la desincorporación de activos.</li>
+                <li><strong>Módulo de Auditoría (ASEH):</strong> Interfaz de solo lectura para responder a requerimientos de la Contraloría Interna y la ASEH.</li>
+                <li><strong>Dashboard de Control:</strong> Tablero con indicadores clave en tiempo real para la alta dirección.</li>
+                <li><strong>Alertas Automatizadas:</strong> Notificaciones por correo sobre eventos críticos.</li>
+                <li><strong>Integración con otros Sistemas:</strong> Contabilidad para conciliación automática y Recursos Humanos para alertas.</li>
+            </ul>
+
+            <div class="author-section">
+                <p><strong>Autor:</strong> <a href="https://github.com/Marvkare" target="_blank" style="color: var(--color-dark); text-decoration: underline;"><i class="fab fa-github"></i> Marvkare</a></p>
+                <a href="https://github.com/Marvkare/sistema-inventario" target="_blank" class="cta-button">Ver Repositorio en GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Miguel Ángel Reyes Verdin. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
